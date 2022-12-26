@@ -79,4 +79,9 @@ function removeItem(i) {
     updateDB()
 }
 
+btnDeleteAll.onclick =()=> {
+    itensDB = []
+    updateDB()
+}
+
 loadItens()
